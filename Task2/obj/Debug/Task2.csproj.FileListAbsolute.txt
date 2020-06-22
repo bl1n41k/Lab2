@@ -1,0 +1,7 @@
+D:\4 семестр\ООП\Lab2\Task2\bin\Debug\Task2.exe.config
+D:\4 семестр\ООП\Lab2\Task2\bin\Debug\Task2.exe
+D:\4 семестр\ООП\Lab2\Task2\bin\Debug\Task2.pdb
+D:\4 семестр\ООП\Lab2\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+D:\4 семестр\ООП\Lab2\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+D:\4 семестр\ООП\Lab2\Task2\obj\Debug\Task2.exe
+D:\4 семестр\ООП\Lab2\Task2\obj\Debug\Task2.pdb
