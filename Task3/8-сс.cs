@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public static class _8_сс
+    public static class NumberSystem8
 	{
         static int Num;
         public static int From8To10(int num) 

@@ -15,28 +15,27 @@ namespace Task2
 			Array arr2 = new Array(5);
 			Array arr3 = new Array(5);
 			int[] search;
-			arr1.print();
-			arr2.print();
+			Console.WriteLine(arr1.ToString());
+			Console.WriteLine(arr2.ToString());
 			arr3 = arr1 + arr2;
-			arr3.print();
+			Console.WriteLine(arr3.ToString());
 			arr3 = arr1 - arr2;
-			arr3.print();
+			Console.WriteLine(arr3.ToString());
 			arr3 = arr1 * 5;
-			arr3.print();
-			arr3.print();
+			Console.WriteLine(arr3.ToString());
 			arr3 = arr3 / 2;
-			arr3.print();
+			Console.WriteLine(arr3.ToString());
 			arr3[0] = 7;
 			arr3[2] = 7;
 			arr3[4] = 7;
-			arr3.print();
-			search = arr3.search(7);
+			Console.WriteLine(arr3.ToString());
+			search = arr3.Search(7);
 			for (int i = 0; i < search.Count(); i++)
 				Console.Write(search[i]+" ");
 			Console.WriteLine();
 			arr3 = arr1 + arr2;
-			arr3.print();
-			arr3.printElement(3);
+			Console.WriteLine(arr3.ToString());
+			Console.WriteLine(arr3.PrintElement(3));
 		}
 	}
 }

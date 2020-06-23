@@ -87,7 +87,7 @@ namespace Task2
             return arr1;
         }
 
-        public int[] search(int value) // Поиск всех индексов с указанным значением
+        public int[] Search(int value) // Поиск всех индексов с указанным значением
         {
             int element = 0;
             int[] arrElement;
@@ -102,19 +102,20 @@ namespace Task2
             if (element != 0) return arrElement;
             else throw new Exception("Not found!");
         }
-        public void printElement(int element) // Вывод значения элемента по заданному индексу
+        public string PrintElement(int element) // Вывод значения элемента по заданному индексу
         {
             Array array = new Array(Left, Right);
             array.arr = arr;
             if (element < Left || element > Right)
               throw new IndexOutOfRangeException("Out of range"); 
-            Console.WriteLine(array[element]);
+            return this.arr[element].ToString();
         }
-        public void print()
+        public override string ToString()
         {
+            string str = "";
             for (int i = 0; i < arr.Length; i++)
-                Console.Write(arr[i] + " ");
-            Console.WriteLine();
+                str += arr[i].ToString() + " ";
+            return str;
         }
     }
 }

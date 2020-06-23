@@ -16,20 +16,20 @@ namespace Task1
 			Complex c;
 			Complex[] d;
 			c = a + b;
-			c.print();
+			Console.WriteLine(c.ToString());
 			c = a - b;
-			c.print();
+			Console.WriteLine(c.ToString());
 			c = a * b;
-			c.print();
+			Console.WriteLine(c.ToString());
 			c = a / b;
-			c.print();
+			Console.WriteLine(c.ToString());
 			a.ComplexDegree(3);
-			a.print();
+			Console.WriteLine(a.ToString());
 			a = new Complex(3, 4);
 			Console.WriteLine("Корни:");
 			d = a.ComplexRoot(3);
 			for (int i=0;i<3;i++)
-			d[i].print();
+			Console.WriteLine(d[i].ToString());
 		}
 	}
 }

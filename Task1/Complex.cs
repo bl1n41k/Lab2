@@ -71,17 +71,17 @@ namespace Task1
 			return roots;
 		}
 
-		public void print()
+		public override string ToString()
 		{
-			if (Re == 0 && Im == 0) Console.WriteLine("0");
+			if (Re == 0 && Im == 0) return ("0");
 			else
-				   if (Im == 0) Console.WriteLine($"{Re}");
+				   if (Im == 0) return ($"{Re}");
 			else
-				   if (Re == 0) Console.WriteLine($"{Im}*i");
+				   if (Re == 0) return ($"{Im}*i");
 			else
-				   if (Im < 0) Console.WriteLine($"{Re}{Im}*i");
+				   if (Im < 0) return ($"{Re}{Im}*i");
 			else
-				Console.WriteLine($"{Re}+{Im}*i");
+				return ($"{Re}+{Im}*i");
 		}
     }
 }
