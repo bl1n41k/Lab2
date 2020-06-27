@@ -11,9 +11,9 @@ namespace Task2
 	{
 		static void Main(string[] args)
 		{
-			Array arr1 = new Array(5); 
-			Array arr2 = new Array(5);
-			Array arr3 = new Array(5);
+			Arr arr1 = new Arr(5); 
+			Arr arr2 = new Arr(5);
+			Arr arr3 = new Arr(5);
 			int[] search;
 			Console.WriteLine(arr1.ToString());
 			Console.WriteLine(arr2.ToString());

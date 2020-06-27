@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-	class Complex
+	public class Complex
 	{
 		double Re, Im; 
 		const double Pi = Math.PI;

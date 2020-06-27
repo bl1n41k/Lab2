@@ -13,7 +13,8 @@ namespace Task1
 		{  
 			Complex a = new Complex(-2, -5);
 			Complex b = new Complex(-5, -5);
-			Complex c;
+			Complex c = new Complex(-2,-2);
+			Console.WriteLine(c.ToString());
 			Complex[] d;
 			c = a + b;
 			Console.WriteLine(c.ToString());
